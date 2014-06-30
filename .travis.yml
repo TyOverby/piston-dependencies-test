@@ -13,3 +13,4 @@ before_install:
 script:
     - cargo build --verbose
     - ls ./target/deps
+    - ! ./target/deps/dummy
