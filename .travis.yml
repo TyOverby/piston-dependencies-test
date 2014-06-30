@@ -12,3 +12,4 @@ install:
     - make && sudo make install
 script:
     - cargo build --verbose
+    - ls ./target/deps
