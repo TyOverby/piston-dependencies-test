@@ -12,4 +12,4 @@ before_install:
     - cd -
 script:
     - cargo build --verbose
-    - ls ./target
+    - ls ./target/deps
