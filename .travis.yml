@@ -10,4 +10,4 @@ install:
     - cd cargo
     - make && sudo make install
 script:
-    - cargo build
+    - cargo build --verbose

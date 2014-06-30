@@ -6,7 +6,7 @@ authors = ["TyOverby <ty@pre-alpha.com>"]
 
 [dependencies.piston-dependencies]
 
-path = "https://github.com/TyOverby/piston-dependencies.git"
+git = "https://github.com/TyOverby/piston-dependencies.git"
 
 [dependencies.sdl2_game_window]
 
