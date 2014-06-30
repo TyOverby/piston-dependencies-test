@@ -8,9 +8,9 @@ authors = ["TyOverby <ty@pre-alpha.com>"]
 
 git = "https://github.com/TyOverby/piston-dependencies.git"
 
-[dependencies.sdl2_game_window]
+[dependencies.glfw_game_window]
 
-git = "https://github.com/PistonDevelopers/sdl2_game_window.git"
+git = "https://github.com/PistonDevelopers/glfw_game_window.git"
 
 [[bin]]
 name = "dummy"

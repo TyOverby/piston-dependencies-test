@@ -1,3 +1,3 @@
-extern crate sdl2_game_window;
+extern crate glfw_game_window;
 
 fn main(){}
