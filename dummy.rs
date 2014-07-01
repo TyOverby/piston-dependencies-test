@@ -11,7 +11,7 @@ fn start(argc: int, argv: *const *const u8) -> int {
 fn main() {
     let glfw = glfw::init(glfw::FAIL_ON_ERRORS).unwrap();
 
-    let (window, events) = glfw.create_window(300, 300, "Hello this is window", glfw::Windowed)
+    let (window, events) = glfw.create_window(300, 300, "Hello this is a window", glfw::Windowed)
         .expect("Failed to create GLFW window.");
 
     window.set_key_polling(true);
