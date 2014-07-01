@@ -4,7 +4,6 @@ name = "piston-dependencies-test"
 version = "0.0.0"
 authors = ["TyOverby <ty@pre-alpha.com>"]
 
-build = "export LD_LIBRARY_PATH=\"./target/deps/:$LD_LIBRARY_PATH\""
 
 [dependencies.piston-dependencies]
 
