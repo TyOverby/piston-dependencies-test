@@ -5,9 +5,9 @@ version = "0.0.0"
 authors = ["TyOverby <ty@pre-alpha.com>"]
 
 
-[dependencies.piston-dependencies]
+[dependencies.glfw-native]
 
-git = "https://github.com/TyOverby/piston-dependencies.git"
+git = "https://github.com/TyOverby/glfw-native.git"
 
 [dependencies.glfw_game_window]
 
