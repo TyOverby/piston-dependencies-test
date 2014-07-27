@@ -2,14 +2,11 @@ language: c
 before_install:
     - sudo apt-get update -qq
     - sudo apt-get install -y cmake libXxf86vm-dev libxml2
-    - export GLFW="true"
-    - curl -O http://static.rust-lang.org/dist/rust-nightly-x86_64-unknown-linux-gnu.tar.gz
-    - tar xfz rust-nightly-x86_64-unknown-linux-gnu.tar.gz
-    - (cd rust-nightly-x86_64-unknown-linux-gnu/ && sudo ./install.sh)
-    - git clone --recursive https://github.com/rust-lang/cargo
-    - cd cargo
-    - make && sudo make install
-    - cd -
+    - curl http://www.rust-lang.org/rustup.sh | sudo -E sh
+    - rustc -v
+    - cargo -V
+install:
+    - sudo apt-get install libXxf8vm-dev
 script:
     - cargo build --verbose
     - ls ./target/deps
